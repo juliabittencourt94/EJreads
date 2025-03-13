@@ -1,0 +1,45 @@
+body {
+    font-family:"Arial Narrow"; 
+     background-color: #f1e6b3;
+     color: #ffffff;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ header {
+     background-color: #55bda6;
+     padding: 20px;
+     text-align: top;
+ }
+ 
+ nav ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ nav ul li {
+     display: inline;
+     margin: 0 15px;
+ }
+ 
+ nav a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ main {
+     padding: 20px;
+ }
+ 
+ .imagem {
+     text-align: center;
+ }
+ 
+ .footer {
+     background-color: #e95191;
+     color: white;
+     text-align: center;
+     padding: 10px;
+
+ }
+ 
