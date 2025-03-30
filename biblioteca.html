@@ -1,56 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>EJReads</title>
+    <link rel="stylesheet" href="biblioteca.css">
 </head>
+
 <body>
+
+    <!-- Cabeçalho -->
     <header>
-        <h1>EJReads</h1>
+        <img src="img/livrologo.png" alt="Logo" class="logo-img">
+
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="index.html">início</a></li>
+                <li><a href="biblioteca.html">biblioteca</a></li>
+                <li><a href="contato.html">contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Conteúdo Principal -->
     <main>
-        <section class="livros">
-            <h2>LIVROS</h2>
-            <div class="container text-center">
-                <div class="row">
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-                  
-                  <div class="w-100"></div>
-              
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-
-                  <div class="w-100"></div>
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-                  <div class= "imagem"> <img src="chovesobreminhainfancia.jpg" alt="chovesobreminhainfancia"></div>
-
-                </div>
-              </div>
-            </ul>
-            </ul>
-        </section>
-        <section class="imagem">
-            <img src="assets/biblioteca.jpg" alt="Biblioteca" />
-        </section>
+        <div class="livros-container">
+            <!-- Linhas com 7 caixinhas cada -->
+            <div class="linha">
+                <div class="livro"></div> 
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+            </div>
+            <div class="linha">
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+                <div class="livro"></div>
+            </div>
+        </div>
     </main>
+
+    <!-- Rodapé -->
     <footer>
-        <address>
-            Fale Conosco R. Cap. Antônio Joaquim de Camargo, 842 - Centro, Laranjeiras do Sul - PR, 85301-230
-        </address>
-        <div class="social">
-            <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+        <div class="footer-content">
+            <p>&copy; 2025 EJReads</p>
+        </div>
+        <div class="footer-icons">
+            <img src="img/instragram.png" alt="Instagram" class="footer-img">
+            <img src="img/facebook.png" alt="Facebook" class="footer-img">
+            <img src="img/twitter.png" alt="Twitter" class="footer-img">
         </div>
     </footer>
+
 </body>
+
 </html>

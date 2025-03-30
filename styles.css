@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Inserat";
+    background-color: #55bda6;
+}
+
+header, footer {
+    background-color: #ffcc99;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo-img {
+    height: auto;
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaço entre os links */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #ffcc99;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.box.imagem img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.texto {
+    width: 60%;
+}
+
+.emieju-imagem {
+    height: auto;
+    width: 120px;
+}
+.biblioteca-imagem {
+    height: auto;
+    width: 80px;
+}
+
+.imagem {
+    width: 30%;
+}
+
+/* Coluna de links */
+.box.links {
+    width: 20%;
+    background-color: #ffcc99;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.box.links h3 {
+    margin-bottom: 10px;
+}
+
+.box.links ul {
+    list-style-type: none;
+}
+
+.box.links ul li {
+    margin: 10px 0;
+}
+
+.box.links ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffcc99;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .footer-content {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer img {
+    width: 70px; /* Ajuste o tamanho aqui */
+    height: auto;
+    margin: 0 10px;
+}

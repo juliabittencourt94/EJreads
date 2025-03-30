@@ -1,56 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>EJReads</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+    <!-- Cabeçalho -->
     <header>
-        <h1>EJReads</h1>
+        <img src="img/livrologo.png" alt="Logo" class="logo-img">
+        
         <nav>
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="#">início</a></li>
+                <li><a href="biblioteca.html">biblioteca</a></li>
+                <li><a href="contato.html">contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Conteúdo Principal -->
     <main>
-        <div class="flex">
-            <section class="proposito">
-                <h2><p>NOSSO PROPÓSITO</p></h2>
-                <p>O nosso site é pra ajudar quem vai fazer vestibular. A gente tem resumos e listas das obras obrigatórias que caem nos vestibulares, tudo de um jeito fácil pra estudar melhor e ir bem nas provas!</p>
-            </section>
-            
-            <section class="sobre">
-                <p>Somos alunos do Colégio Estadual Laranjeiras do Sul, que viemos por meio desse ajudar no estudo da literatura de jovens vestibulandos. Para mantermos vocês sempre informados, conforme o aumento de participações nesse site, traremos mais faculdades e suas literaturas! Esperamos que gostem!</p>
-            </section>
-            <section class="obras">
-                <h2><p>Obras obrigatórias</p></h2>
-                <ul>
-                    <p>
-                    <li>UNICENTRO 2025</li>
-                    <li>UEPG 2025</li>
-                    <li>UFPR 2025</li>
-                    <li>UNIOESTE 2025</li>
-                </p>
-                </ul>
-            </section>
+        <div class="content-wrapper">
+            <!-- Primeira linha -->
+            <div class="section">
+                <div class="box imagem">
+                    <img src="img/emi e ju.jpg" alt="emi e ju" class="emieju-imagem">
+                </div>
+                <div class="box texto">
+                    <h2>NOSSO PROPÓSITO:</h2>
+                    <p>O nosso site é pra ajudar quem vai fazer vestibular. A gente tem resumos e listas das obras obrigatórias que caem nos vestibulares, tudo de um jeito fácil pra estudar melhor e ir bem nas provas!</p>
+                </div>
+                <!-- Coluna de links à direita (linha 1) -->
+                <div class="box links">
+                    <h3>Links das universidades escolhidas:</h3>
+                    <ul>
+                        <li><a href="https://www3.unicentro.br/vestibular/unicentro/obras-literarias/" target="_blank">Obras obrigatórias UNICENTRO 2025</a></li>
+                        <li><a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://legislacao.apps.uepg.br/documentosPublico/1332022-12-0623.pdf" target="_blank">Obras obrigatórias UEPG 2025</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="section">
+                <div class="box texto">
+                    <h2>QUEM SOMOS?</h2>
+                    <p>Somos alunos do Colégio Estadual Laranjeiras do Sul, que viemos por meio desse ajudar no estudo da literatura de jovens vestibulandos. Para mantermos vocês sempre informados, conforme o aumento de participações nesse site, traremos mais faculdades e suas literaturas! Esperamos que gostem!</p>
+                </div>
+                <div class="box imagem">
+                    <img src="img/biblioteca.jpg" alt="biblioteca imagem" class="biblioteca-imagem">
+                </div>
+                <!-- Coluna de links à direita (linha 2) -->
+                <div class="box links">
+                    <h3>Links das universidades escolhidas:</h3>
+                    <ul>
+                        <li><a href="https://ufpr.br/ufpr-divulga-obras-de-referencia-para-o-vestibular-2025/" target="_blank">Obras obrigatórias UFPR 2025</a></li>
+                        <li><a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.unioeste.br/portal/arq/files/ingresso/DCV/Vestibular/Conteudo_Programatico/2026-2028/Conteudo_programatico-Links_obras.pdf" target="_blank">Obras obrigatórias UNIOESTE 2025</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        
-        <section class="imagem">
-            <img src="img/biblioteca.jpg" alt="Biblioteca" />
-        </section>
     </main>
+
+    <!-- Rodapé -->
     <footer>
-        <address>
-            Fale Conosco R. Cap. Antônio Joaquim de Camargo, 842 - Centro, Laranjeiras do Sul - PR, 85301-230
-        </address>
-        <div class="social">
-            <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+        <div class="footer-content">
+            <p>&copy; 2025 EJReads</p> <!-- Nome do site no footer -->
+        </div>
+        <div class="footer-icons">
+            <img src="img/instragram.png" alt="Instagram" class="footer-img">
+            <img src="img/facebook.png" alt="Facebook" class="footer-img">
+            <img src="img/twitter.png" alt="Twitter" class="footer-img">
         </div>
     </footer>
 </body>
