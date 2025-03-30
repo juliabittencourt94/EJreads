@@ -73,6 +73,12 @@ livro-tmn {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+.livro-img{
+    width: 110px;
+    height: 170px;
+    border-radius: 5px;
+}
+
 footer .footer-content {
     margin: 10px 0;
     font-size: 16px;
