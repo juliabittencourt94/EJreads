@@ -6,7 +6,7 @@
 
 body {
     font-family: "Helvetica Inserat";
-    background-color: #55bda6;
+    background-color: #f87493;
 }
 
 header, footer {
@@ -21,7 +21,7 @@ header, footer {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .logo-img {
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -70,8 +70,8 @@ main {
 }
 
 .box {
-    background-color: #ffcc99;
-    color: black;
+    background-color: #2ad2bc;
+    color: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
     display: flex;
@@ -81,8 +81,8 @@ main {
 }
 
 .box-info {
-    background-color: #e49648;
-    color: black;
+    background-color:#2ad2bc;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     display: flex;
@@ -91,7 +91,7 @@ main {
     align-items: center; /* Centraliza horizontalmente */
 }
 .box-yt {
-    background-color: #e49648;
+    background-color: #2ad2bc;
     color: black;
     padding: 20px;
     text-align: center;
