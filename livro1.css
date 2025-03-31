@@ -108,15 +108,11 @@ main {
 
 .book-imagem {
     height: auto;
-    width: 120px;
-}
-.biblioteca-imagem {
-    height: auto;
-    width: 80px;
+    width: 200px;
 }
 
 .imagem {
-    width: 30%;
+    width: 35%;
 }
 
 
@@ -124,7 +120,7 @@ footer {
     background-color: #ffcc99;
     color: black;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 footer .footer-content {
