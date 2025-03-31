@@ -6,12 +6,12 @@
 
 body {
     font-family: "Lucida Console", Courier, monospace;
-    background-color: #d9b289;
+    background-color: #ffdcb6;
 }
 
 header, footer {
     background-color: #2ad2bc;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header, footer {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    color: #ffffff;
 }
 
 .logo-img {
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -71,7 +71,7 @@ main {
 
 .box {
     background-color: #f46083;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
     display: flex;
@@ -106,7 +106,7 @@ main {
 .box.links {
     width: 20%;
     background-color: #bd3252;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
     display: flex;
@@ -128,14 +128,14 @@ main {
 }
 
 .box.links ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 footer {
     background-color: #2ad2bc;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
