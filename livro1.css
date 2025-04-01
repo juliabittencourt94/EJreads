@@ -70,14 +70,14 @@ main {
 }
 
 .box {
-    background-color: #2ad2bc;
+    background-color: #097b6c;
     color: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .box-info {
@@ -87,8 +87,8 @@ main {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 .box-yt {
     background-color: #2ad2bc;
