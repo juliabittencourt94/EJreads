@@ -70,7 +70,7 @@ main {
 }
 
 .box {
-    background-color: #097b6c;
+    background-color: #2aead0;
     color: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
@@ -81,7 +81,7 @@ main {
 }
 
 .box-info {
-    background-color:#2ad2bc;
+    background-color:#2de2ca;
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -102,7 +102,7 @@ main {
 }
 
 .box-l{
-    background-color: #2ad2bc;
+    background-color: #078d7b;
     color: black;
     padding: 30px;
     text-align: center;
